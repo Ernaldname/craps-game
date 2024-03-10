@@ -14,18 +14,50 @@
             <Insets top="100.0" />
          </VBox.margin>
       </Label>
-      <TextField fx:id="nicknameTextField" onKeyPressed="#onKeyNicknameTextField">
+      <TextField fx:id="nicknameTextField" onKeyPressed="#onKeyNicknameTextField" prefHeight="20.0" prefWidth="20.0">
          <VBox.margin>
-            <Insets />
+            <Insets right="400.0" />
          </VBox.margin>
          <padding>
-            <Insets left="10.0" top="2.0" />
+            <Insets top="2.0" />
          </padding>
+      </TextField>
+      <TextField fx:id="nicknameTextField1" onKeyPressed="#onKeyNicknameTextField" prefHeight="20.0" prefWidth="20.0">
+         <padding>
+            <Insets top="2.0" />
+         </padding>
+         <VBox.margin>
+            <Insets top="-35.0" />
+         </VBox.margin>
+      </TextField>
+      <TextField fx:id="nicknameTextField11" onKeyPressed="#onKeyNicknameTextField" prefHeight="20.0" prefWidth="20.0">
+         <VBox.margin>
+            <Insets right="-400.0" top="-35.0" />
+         </VBox.margin>
+         <padding>
+            <Insets top="2.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="nicknameTextField2" onKeyPressed="#onKeyNicknameTextField" prefHeight="20.0" prefWidth="20.0">
+         <padding>
+            <Insets top="2.0" />
+         </padding>
+         <VBox.margin>
+            <Insets right="-200.0" top="-35.0" />
+         </VBox.margin>
+      </TextField>
+      <TextField fx:id="nicknameTextField21" onKeyPressed="#onKeyNicknameTextField" prefHeight="20.0" prefWidth="20.0">
+         <padding>
+            <Insets top="2.0" />
+         </padding>
+         <VBox.margin>
+            <Insets right="200.0" top="-35.0" />
+         </VBox.margin>
       </TextField>
       <Button mnemonicParsing="false" onAction="#onHandleButtonPlay" text="JUGAR">
          <VBox.margin>
             <Insets top="20.0" />
          </VBox.margin></Button>
-      <TextArea fx:id="outputTextAre" prefHeight="64.0" prefWidth="256.0" />
+      <TextArea fx:id="outputTextAre" prefHeight="1.0" prefWidth="300.0" />
    </children>
 </VBox>
