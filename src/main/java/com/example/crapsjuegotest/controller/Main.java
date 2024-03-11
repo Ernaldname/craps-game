@@ -23,10 +23,6 @@ public class Main extends Application {
         primaryStage.show();
 
         System.out.println("Hola reina");
-        //Hey
-        //Hola
-        // Seven
-        // Prueba 2
 
     }
 }
