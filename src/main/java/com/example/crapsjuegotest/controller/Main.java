@@ -4,6 +4,7 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.stage.Stage;
 import java.io.IOException;
 
@@ -22,7 +23,7 @@ public class Main extends Application {
         primaryStage.setScene(scene);
         primaryStage.show();
 
-        System.out.println("Hola reina");
-        System.out.println("H");
+        Image icon = new Image("C:\\Users\\User\\OneDrive\\Documents\\zelda_icon.png");
+        primaryStage.getIcons().add(icon);
     }
 }
