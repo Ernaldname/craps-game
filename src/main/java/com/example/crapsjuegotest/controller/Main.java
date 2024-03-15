@@ -23,7 +23,8 @@ public class Main extends Application {
         primaryStage.setScene(scene);
         primaryStage.show();
 
-        Image icon = new Image("C:\\Users\\User\\OneDrive\\Documents\\zelda_icon.png");
+        // Añadimos un icono
+        Image icon = new Image("C:\\Users\\User\\OneDrive\\Documents\\soga.png");
         primaryStage.getIcons().add(icon);
     }
 }

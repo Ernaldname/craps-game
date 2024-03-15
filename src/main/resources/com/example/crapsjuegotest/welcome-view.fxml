@@ -22,7 +22,7 @@
             <Insets top="2.0" />
          </padding>
       </TextField>
-      <TextField fx:id="nicknameTextField1" onKeyPressed="#onKeyNicknameTextField" prefHeight="20.0" prefWidth="20.0">
+      <TextField fx:id="nicknameTextField1" onKeyPressed="#onKeyNicknameTextField1" prefHeight="20.0" prefWidth="20.0">
          <padding>
             <Insets top="2.0" />
          </padding>

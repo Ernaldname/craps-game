@@ -13,6 +13,9 @@ public class GameController {
     private TextField nicknameTextField;
 
     @FXML
+    private TextField nicknameTextField1;
+
+    @FXML
     private TextArea outputTextAre;
 
     @FXML
@@ -21,9 +24,22 @@ public class GameController {
         String nickName = nicknameTextField.getText();
         System.out.println(nickName);
         outputTextAre.setText(nickName);
+
+        nicknameTextField1.getText();
+        String nickName2 = nicknameTextField1.getText();
+        System.out.println(nickName2);
+        outputTextAre.setText(nickName2);
     }
+
     @FXML
     public void onKeyNicknameTextField(KeyEvent event) {
         System.out.println(event.getText());
     }
+
+    @FXML
+    public void onKeyNicknameTextField1(KeyEvent event) {
+        System.out.println(event.getText());
+    }
+
+
 }
